@@ -2600,7 +2600,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 100%;
 		}
 
 			.image.left img, .image.right img {
@@ -2611,6 +2611,10 @@ input, select, textarea {
 			float: left;
 			margin: 0 2rem 2rem 0;
 			top: 0.75rem;
+		}
+		#reviewItem {
+			margin-top: 1rem;
+			margin-bottom: 1rem;
 		}
 
 		.image.right {
@@ -3630,7 +3634,17 @@ input, select, textarea {
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
+		overflow: hidden;
 	}
+
+.sticky {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
 
 		#nav ul.divided li {
 			border-top-color: #ffffff;
