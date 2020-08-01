@@ -3933,6 +3933,7 @@ input, select, textarea {
 					margin-right: auto;
 				}
 
+
 			}
 
 		@media screen and (max-width: 736px) {
@@ -3950,6 +3951,17 @@ input, select, textarea {
 			}
 
 		}
+		#main .menuRow {
+			justify-content: center;
+			text-align: center;
+		}
+		#main .menuRow .active {
+			background-color: #70573A !important;
+		}
+		/* to change menu color */
+		/* #main .invert {
+			background-color: rgb(133, 120, 106);
+		} */
 
 /* Footer */
 
