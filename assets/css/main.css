@@ -2599,7 +2599,6 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
-
 /* Image */
 
 	.image {
@@ -2629,8 +2628,8 @@ input, select, textarea {
 			display: block;
 			/*width: 100%;*/
 			margin: 0 0 4em 0;
-			height: 200px;
-			width: 200px;
+			height: 250px;
+			width: 250px;
 		}
 
 		#reviewItem {
@@ -3918,6 +3917,10 @@ input, select, textarea {
 			width: 100%;
 			padding: 0;
 		}
+		#main > .posts>h3.nospace{
+			padding-top: 2rem;
+			padding-bottom: 1rem;
+		}
 
 			#main > .posts > * {
 				-moz-flex-shrink: 1;
@@ -4198,7 +4201,10 @@ input, select, textarea {
 					}
 			}
 
-			
+			#main > .contact.invert {
+				/* margin-top: -0.325rem; */
+				background-color: #c0a88a !important;
+			}
 /* Footer */
 
 	#footer {
@@ -4545,6 +4551,8 @@ input, select, textarea {
 						#footer > section.split.contact > section.alt > :last-child {
 							margin-top: -0.325rem;
 						}
+
+
 
 		#footer form label,
 		#footer h3,
