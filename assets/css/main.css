@@ -4082,7 +4082,6 @@ input, select, textarea {
 				position: absolute;
 				top: 50%;
 				margin: -1.5em 0 0 0;
-				background: url("../../images/arrow-b.png") no-repeat center center !important;
 			}
 
 			.carousel .forward:hover:before, .carousel .backward:hover:before {

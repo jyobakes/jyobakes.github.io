@@ -175,50 +175,45 @@
 								</article>
 							</section>
 							
-						<!-- Footer -->
-							<footer>
-								this is the footer for the posts
-							</footer>
-
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
 						<section id="order">
 						<h4>Contact us to place your order! </h4>
-							<form method="post" action="#">
+							<form method="post" action="https://formspree.io/moqkrwpl">
 								<div class="fields">
-									<div class="field">
+									<div class="field half">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<input type="text" name="Name" id="name" required="" />
 									</div>
-									<div class="field">
+									<div class="field half">
 										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
+										<input type="text" name="Email" id="email" required=""/>
 									</div>
 									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
+										<label for="phone">Phone Number</label>
+										<input type="text" id="phone" name="Phone" placeholder=" Please enter 10 digits (Format: XXXXXXXXXX) " pattern="[0-9]{10}" required="" />
+									</div>
+									<div class="field">
+										<label for="details">Detials</label>
+										<textarea  requried name="Details"  id="details" rows="3" required="" >Please mention any dietary restrictions:      
+					- Gluten Free (Yes/No)      
+					- Nuts Allergy (Yes/No)
+		Is it a gift? If yes, do you have any special message?
+					- Message:
+										</textarea>
 									</div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
+									<li>
+											<input type="submit" value="Send Message"/>
+									</li>
+									<li>
+											<input type="reset" value="Reset" />
+									</li>
+							</ul>
 							</form>
-						</section>
-						<section class="split contact invert">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>New Delhi</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">+91 8130927888</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">jyobakes@gmail.com</a></p>
-							</section>
 							<section>
 								<h3>Social</h3>
 								<ul class="icons alt">
@@ -228,7 +223,8 @@
 									<li><a href="mailto:jyobakes@gmail.com" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
 								</ul>
 							</section>
-						</section>
+					</section>
+
 					</footer>
 
 				<!-- Copyright -->
@@ -243,25 +239,6 @@
 			</div>
 
 		<!-- Scripts -->
-		<!-- <script>
-							// When the user scrolls the page, execute myFunction 
-				window.onscroll = function() {myFunction()};
-
-				// Get the header
-				var header = document.getElementById("nav");
-
-				// Get the offset position of the navbar
-				var sticky = header.offsetTop;
-
-				// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-				function myFunction() {
-					if (window.pageYOffset > sticky) {
-						header.classList.add("sticky");
-					} else {
-						header.classList.remove("sticky");
-					}
-				}
-		</script> -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>

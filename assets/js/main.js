@@ -269,8 +269,8 @@
 			$('.carousel').each(function() {
 
 				var	$t = $(this),
-					$forward = $('<span class="forward"></span>'),
-					$backward = $('<span class="backward"></span>'),
+					$forward = $('<span class="forward"><i class="fas fa-arrow-right"></i></span>'),
+					$backward = $('<span class="backward"><i class="fas fa-arrow-left"></i></span>'),
 					$reel = $t.children('.reel'),
 					$items = $reel.children('article');
 	
