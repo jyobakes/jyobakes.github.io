@@ -3917,9 +3917,9 @@ input, select, textarea {
 			width: 100%;
 			padding: 0;
 		}
-		#main > .posts>h3.nospace{
+		#main > h3.nospace{
 			padding-top: 2rem;
-			padding-bottom: 1rem;
+			padding-bottom: 2rem;
 		}
 
 			#main > .posts > * {
