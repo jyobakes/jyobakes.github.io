@@ -3255,6 +3255,23 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
+	/* #wrapper> .sticky {
+  position: fixed !important;
+	top: 60px;
+	left: 112px;
+	width: calc(100% - 4rem);
+	max-width: 72rem;
+	padding: 0 2rem 0 0;
+	z-index: 11000000;
+	margin: -4rem auto 0 auto;
+	height: 4em;
+	background-color: black;
+
+}
+	#wrapper .sticky + #main {
+  	padding-top: 60px;
+	} */
+
 		#wrapper > .bg {
 			position: absolute;
 			top: 0;
@@ -3279,7 +3296,27 @@ input, select, textarea {
 				height: 100vh;
 			}
 
-		#wrapper.fade-in:before {
+
+			#wrapper > .floater-whatsapp >img  {
+					visibility: none;
+					display: none;
+					
+			}
+
+			@media screen and (max-width: 736px) {
+				#wrapper > .floater-whatsapp >img  {
+					position: fixed;
+					bottom: 2%;
+					height: 80px;
+					width: 80px;
+					right : 2px;
+					z-index: 1110000;
+					visibility: unset;
+					display: unset;
+				}
+			}
+
+			#wrapper.fade-in:before {
 			pointer-events: none;
 			-moz-transition: opacity 1s ease-in-out;
 			-webkit-transition: opacity 1s ease-in-out;
@@ -3657,18 +3694,16 @@ input, select, textarea {
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
-		overflow: hidden;
 	}
 
-.sticky {
+/* .sticky {
   position: fixed !important;
   top: 0;
   width: 100%;
 }
 .sticky + .content {
   padding-top: 60px;
-}
-
+} */
 		#nav ul.divided li {
 			border-top-color: #ffffff;
 		}
