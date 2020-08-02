@@ -4033,6 +4033,14 @@ input, select, textarea {
 		#main .menuRow .active {
 			background-color: #70573A !important;
 		}
+
+		@media screen and (max-width: 420px) {
+
+			#main .menuRow > .button {
+				padding-right: 0.5rem;
+				padding-left: 0.5rem;
+			}
+		}
 		/* to change menu color */
 		/* #main .invert {
 			background-color: rgb(133, 120, 106);
